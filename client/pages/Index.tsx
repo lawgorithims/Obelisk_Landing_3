@@ -104,7 +104,7 @@ export default function Index() {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black mb-6 leading-tight tracking-tight">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 md:mb-6 leading-tight tracking-tight">
             Build Stronger Cases, Faster
           </h1>
 
