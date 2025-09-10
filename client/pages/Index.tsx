@@ -118,14 +118,14 @@ export default function Index() {
       <section className="bg-neutral-100 py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Hero Badge */}
-          <div className="inline-flex items-center justify-center gap-2 px-4 py-1 bg-teal-400 text-black text-xs font-bold rounded-full mb-8">
+          <Link to="/desktop" aria-label="Open desktop" className="inline-flex items-center justify-center gap-2 px-4 py-1 bg-teal-400 text-black text-xs font-bold rounded-full mb-8 hover:bg-teal-300 transition-colors">
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/5a572eda30e8754acd80a673a89d6bd6ea50f883?width=50"
               alt="Obelisk icon"
               className="w-4 h-4"
             />
             OBELISK
-          </div>
+          </Link>
 
           {/* Main Headline */}
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 md:mb-6 leading-tight tracking-tight">
