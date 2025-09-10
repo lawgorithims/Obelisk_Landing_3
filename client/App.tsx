@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import Placeholder from "./pages/Placeholder";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
+import HowItWorks from "./pages/HowItWorks";
 import Desktop from "./pages/Desktop";
 import Dashboard from "./pages/Dashboard";
 
@@ -25,10 +26,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/features" element={<Features />} />
-          <Route
-            path="/how-it-works"
-            element={<Placeholder pageName="How It Works" />}
-          />
+          <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/desktop" element={<Desktop />} />
           <Route path="/dashboard" element={<Dashboard />} />
