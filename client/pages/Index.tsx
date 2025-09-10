@@ -34,8 +34,9 @@ export default function Index() {
             </nav>
 
             {/* CTA Button */}
-            <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold">
-              Start your 7-day free trial
+            <Button className="bg-slate-900 hover:bg-slate-800 text-white px-4 sm:px-6 py-3 rounded-lg font-bold text-sm sm:text-base">
+              <span className="hidden sm:inline">Start your 7-day free trial</span>
+              <span className="sm:hidden">Free Trial</span>
             </Button>
           </div>
         </div>
