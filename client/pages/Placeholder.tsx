@@ -1,11 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { Menu } from "lucide-react";
+import { useState } from "react";
 
 interface PlaceholderProps {
   pageName: string;
 }
 
 export default function Placeholder({ pageName }: PlaceholderProps) {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <div className="min-h-screen bg-neutral-100">
       {/* Header */}
@@ -25,40 +28,45 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
             </Link>
 
             {/* Navigation */}
-            <nav className="flex items-center space-x-8">
-              <a
-                href="/#how-it-works"
-                className="text-gray-700 hover:text-gray-900 text-base"
-              >
-                How It Works
-              </a>
-              <a
-                href="/#pricing"
-                className="text-gray-700 hover:text-gray-900 text-base"
-              >
-                Pricing
-              </a>
-              <a
-                href="#company"
-                className="text-gray-700 hover:text-gray-900 text-base"
-              >
-                Company
-              </a>
-              <a
-                href="#faq"
-                className="text-gray-700 hover:text-gray-900 text-base"
-              >
-                FAQ
-              </a>
+            <nav className="hidden md:flex items-center space-x-8">
+              <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">Features</Link>
+              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">How It Works</Link>
+              <a href="/#pricing" className="text-gray-700 hover:text-gray-900 text-base">Pricing</a>
+              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">Company</Link>
+              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">FAQ</Link>
             </nav>
 
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden p-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              <Menu className="w-6 h-6 text-black" />
+            </button>
+
             {/* CTA Button */}
-            <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold">
+            <Button className="hidden md:flex bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold">
               Start your 7-day free trial
             </Button>
           </div>
         </div>
       </header>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden bg-white border-t border-gray-200 py-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav className="flex flex-col space-y-4">
+              <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">Features</Link>
+              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">How It Works</Link>
+              <a href="/#pricing" className="text-gray-700 hover:text-gray-900 text-base">Pricing</a>
+              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">Company</Link>
+              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">FAQ</Link>
+            </nav>
+          </div>
+        </div>
+      )}
 
       {/* Placeholder Content */}
       <section className="py-20">
