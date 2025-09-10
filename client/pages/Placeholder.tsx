@@ -29,11 +29,36 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">Features</Link>
-              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">How It Works</Link>
-              <a href="/#pricing" className="text-gray-700 hover:text-gray-900 text-base">Pricing</a>
-              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">Company</Link>
-              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">FAQ</Link>
+              <Link
+                to="/features"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                Features
+              </Link>
+              <Link
+                to="/how-it-works"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                How It Works
+              </Link>
+              <a
+                href="/#pricing"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                Pricing
+              </a>
+              <Link
+                to="/company"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                Company
+              </Link>
+              <Link
+                to="/faq"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                FAQ
+              </Link>
             </nav>
 
             {/* Mobile Menu Button */}
@@ -58,11 +83,36 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
         <div className="md:hidden bg-white border-t border-gray-200 py-4">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <nav className="flex flex-col space-y-4">
-              <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">Features</Link>
-              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">How It Works</Link>
-              <a href="/#pricing" className="text-gray-700 hover:text-gray-900 text-base">Pricing</a>
-              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">Company</Link>
-              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">FAQ</Link>
+              <Link
+                to="/features"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                Features
+              </Link>
+              <Link
+                to="/how-it-works"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                How It Works
+              </Link>
+              <a
+                href="/#pricing"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                Pricing
+              </a>
+              <Link
+                to="/company"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                Company
+              </Link>
+              <Link
+                to="/faq"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
+                FAQ
+              </Link>
             </nav>
           </div>
         </div>

@@ -118,7 +118,11 @@ export default function Index() {
       <section className="bg-neutral-100 py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Hero Badge */}
-          <a href="https://3ffb6dfab0604b54b198808fbe0dbd91-786cdc09b3c54151a69c95709.fly.dev/dashboard" aria-label="Open desktop" className="inline-flex items-center justify-center gap-2 px-4 py-1 bg-teal-400 text-black text-xs font-bold rounded-full mb-8 hover:bg-teal-300 transition-colors">
+          <a
+            href="https://3ffb6dfab0604b54b198808fbe0dbd91-786cdc09b3c54151a69c95709.fly.dev/dashboard"
+            aria-label="Open desktop"
+            className="inline-flex items-center justify-center gap-2 px-4 py-1 bg-teal-400 text-black text-xs font-bold rounded-full mb-8 hover:bg-teal-300 transition-colors"
+          >
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/5a572eda30e8754acd80a673a89d6bd6ea50f883?width=50"
               alt="Obelisk icon"
