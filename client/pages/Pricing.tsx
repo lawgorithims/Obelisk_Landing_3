@@ -317,7 +317,7 @@ export default function Pricing() {
               <hr className="border-gray-600 mb-4 md:mb-6" />
 
               <div className="space-y-3">
-                <Link to="/desktop">
+                <Link to="/dashboard">
                   <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black font-bold py-3">
                     Try for free
                   </Button>
