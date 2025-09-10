@@ -194,83 +194,83 @@ export default function Pricing() {
             </div>
 
             {/* Premium Plan - Featured */}
-            <div className="bg-slate-900 rounded-lg border border-slate-900 p-8 shadow-lg relative">
+            <div className="bg-slate-900 rounded-lg border border-slate-900 p-6 md:p-8 shadow-lg relative">
               {/* Most Popular Badge */}
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-teal-400 text-black px-4 py-1 rounded-full text-xs font-bold tracking-wide">
+              <div className="absolute -top-3 md:-top-4 left-1/2 transform -translate-x-1/2">
+                <span className="bg-teal-400 text-black px-3 md:px-4 py-1 rounded-full text-xs font-bold tracking-wide">
                   MOST POPULAR
                 </span>
               </div>
 
-              <h3 className="text-2xl font-bold text-white mb-4">Premium</h3>
-              <p className="text-gray-300 mb-6">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 pt-2 md:pt-0">Premium</h3>
+              <p className="text-sm md:text-base text-gray-300 mb-4 md:mb-6">
                 For growing teams looking to uplevel their legal workflows.
               </p>
-              <div className="mb-8">
-                <span className="text-4xl font-bold text-white">$49</span>
-                <span className="text-lg text-gray-300">/mo</span>
+              <div className="mb-6 md:mb-8">
+                <span className="text-3xl md:text-4xl font-bold text-white">$49</span>
+                <span className="text-base md:text-lg text-gray-300">/mo</span>
               </div>
 
-              <hr className="border-gray-600 mb-6" />
+              <hr className="border-gray-600 mb-4 md:mb-6" />
 
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-3 md:space-y-4 mb-6 md:mb-8">
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <div className="text-sm text-white">
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="text-sm md:text-sm text-white">
                     <strong>500</strong> AI requests per month
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <div className="text-sm text-white">
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="text-sm md:text-sm text-white">
                     Up to <strong>5</strong> active workspaces
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <div className="text-sm text-white">
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="text-sm md:text-sm text-white">
                     <strong>60 GB</strong> of secure storage per workspace
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-white">Document review & analysis</span>
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-white">Document review & analysis</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-white">Automated legal research</span>
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-white">Automated legal research</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-white">Citation validation</span>
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-white">Citation validation</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-white">Intelligent document drafting</span>
+                  <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-white">Intelligent document drafting</span>
                 </li>
                 <li className="flex items-start">
-                  <X className="w-4 h-4 text-gray-500 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-gray-500">Analytics</span>
+                  <X className="w-4 h-4 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-gray-500">Analytics</span>
                 </li>
                 <li className="flex items-start">
-                  <X className="w-4 h-4 text-gray-500 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-gray-500">API Access</span>
+                  <X className="w-4 h-4 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-gray-500">API Access</span>
                 </li>
                 <li className="flex items-start">
-                  <X className="w-4 h-4 text-gray-500 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm text-gray-500">Enterprise level support</span>
+                  <X className="w-4 h-4 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm text-gray-500">Enterprise level support</span>
                 </li>
               </ul>
 
-              <hr className="border-gray-600 mb-6" />
+              <hr className="border-gray-600 mb-4 md:mb-6" />
 
               <div className="space-y-3">
-                <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black font-bold">
+                <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black font-bold py-3">
                   Try for free
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full bg-white border-white text-black hover:bg-gray-100 font-bold"
+                  className="w-full bg-white border-white text-black hover:bg-gray-100 font-bold py-3"
                 >
                   See More Details
                 </Button>
