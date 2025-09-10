@@ -50,12 +50,12 @@ export default function Index() {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black mb-6 leading-tight tracking-tight">
             Build Stronger Cases, Faster
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl text-gray-700 max-w-4xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto mb-12 leading-relaxed font-garamond">
             Obelisk is a legal drafting tool that verifies your work against authoritative sources.
             Whether reviewing case law, preparing briefs, or analyzing contracts, Obelisk ensures accuracy
             by fact-checking documents against the record.
