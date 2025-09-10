@@ -12,6 +12,7 @@ import Placeholder from "./pages/Placeholder";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
 import Desktop from "./pages/Desktop";
+import Dashboard from "./pages/Dashboard";
 
 const queryClient = new QueryClient();
 
