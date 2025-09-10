@@ -203,10 +203,10 @@ export default function Features() {
 
             {/* Icon - Right on desktop */}
             <div className="flex justify-center md:justify-start order-1 md:order-2">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/7d196d3c4e9709c2dc710f459d3f804a486f262a?width=254" 
-                alt="Legal Research Icon" 
-                className="w-24 h-24 md:w-32 lg:w-40"
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/7d196d3c4e9709c2dc710f459d3f804a486f262a?width=254"
+                alt="Legal Research Icon"
+                className="w-24 md:w-32 lg:w-40 h-auto max-w-full"
               />
             </div>
           </div>
