@@ -102,20 +102,20 @@ export default function Pricing() {
       </header>
 
       {/* Main Pricing Section */}
-      <section className="bg-neutral-100 py-16 md:py-20">
+      <section className="bg-neutral-100 py-12 md:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
-          <div className="text-center mb-16">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4">
+          <div className="text-center mb-12 md:mb-16">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-3 md:mb-4">
               Select Your Plan
             </h1>
-            <p className="text-lg text-gray-700">
+            <p className="text-base md:text-lg text-gray-700">
               Elevate your legal workflows
             </p>
           </div>
 
           {/* Pricing Cards */}
-          <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             {/* Standard Plan */}
             <div className="bg-white rounded-lg border border-gray-300 p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-black mb-4">Standard</h3>
