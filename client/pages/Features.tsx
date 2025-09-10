@@ -142,9 +142,10 @@ export default function Features() {
                 Document Review & Analysis
               </h3>
               <p className="text-white text-base md:text-lg leading-relaxed mb-6 md:mb-8">
-                Upload legal documents, contracts, and depositions. Automatically
-                extracts key information, identifies relevant facts, and builds
-                context for your case with intelligent document scanning.
+                Upload legal documents, contracts, and depositions.
+                Automatically extracts key information, identifies relevant
+                facts, and builds context for your case with intelligent
+                document scanning.
               </p>
               <Button className="bg-white text-black hover:bg-gray-100 px-6 py-2 rounded-lg font-bold">
                 Try Now
