@@ -601,9 +601,11 @@ export default function Index() {
               <hr className="border-gray-600 mb-6" />
 
               <div className="space-y-3">
-                <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black">
-                  Try for free
-                </Button>
+                <Link to="/dashboard">
+                  <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black">
+                    Try for free
+                  </Button>
+                </Link>
                 <Button
                   variant="outline"
                   className="w-full bg-white border-white text-black hover:bg-gray-100"
