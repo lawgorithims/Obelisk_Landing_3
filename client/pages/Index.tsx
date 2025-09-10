@@ -52,12 +52,17 @@ export default function Index() {
               </Link>
             </nav>
 
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden p-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <Menu className="w-6 h-6 text-black" />
+            </button>
+
             {/* CTA Button */}
-            <Button className="bg-slate-900 hover:bg-slate-800 text-white px-4 sm:px-6 py-3 rounded-lg font-bold text-sm sm:text-base">
-              <span className="hidden sm:inline">
-                Start your 7-day free trial
-              </span>
-              <span className="sm:hidden">Free Trial</span>
+            <Button className="hidden md:flex bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold">
+              Start your 7-day free trial
             </Button>
           </div>
         </div>
