@@ -547,7 +547,7 @@ export default function Index() {
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full border-white text-white hover:bg-gray-800"
+                  className="w-full bg-white border-white text-black hover:bg-gray-100"
                 >
                   See More Details
                 </Button>
