@@ -335,7 +335,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8">
             {/* Standard Plan */}
             <div className="bg-white rounded-lg border-2 border-gray-200 p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-black mb-4">Standard</h3>
