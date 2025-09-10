@@ -219,10 +219,10 @@ export default function Features() {
           <div className="bg-slate-900 rounded-r-3xl md:rounded-r-[100px] py-12 md:py-16 px-6 md:px-12 lg:px-16 xl:px-20 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Icon */}
             <div className="flex justify-center md:justify-end">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/9b95828bb398afa404845ef97fae011fbe447b0b?width=254" 
-                alt="Document Drafting Icon" 
-                className="w-24 h-24 md:w-32 lg:w-40"
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/9b95828bb398afa404845ef97fae011fbe447b0b?width=254"
+                alt="Document Drafting Icon"
+                className="w-24 md:w-32 lg:w-40 h-auto max-w-full"
               />
             </div>
 
