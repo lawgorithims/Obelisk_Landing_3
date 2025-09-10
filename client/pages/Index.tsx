@@ -143,9 +143,11 @@ export default function Index() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12 md:mb-16 px-4">
-            <Button className="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white px-6 py-2.5 rounded-lg font-bold text-xs sm:text-sm">
-              Try For Free
-            </Button>
+            <Link to="/dashboard">
+              <Button className="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white px-6 py-2.5 rounded-lg font-bold text-xs sm:text-sm">
+                Try For Free
+              </Button>
+            </Link>
             <Button
               variant="outline"
               className="w-full sm:w-auto border-black text-black hover:bg-gray-50 px-6 py-2.5 rounded-lg font-bold text-xs sm:text-sm"
