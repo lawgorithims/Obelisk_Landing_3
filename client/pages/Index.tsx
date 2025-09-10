@@ -25,7 +25,7 @@ export default function Index() {
             </div>
 
             {/* Navigation */}
-            <nav className="flex items-center space-x-8">
+            <nav className="hidden md:flex items-center space-x-8">
               <Link
                 to="/features"
                 className="text-gray-700 hover:text-gray-900 text-base"
