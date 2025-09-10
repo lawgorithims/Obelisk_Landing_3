@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -18,18 +19,18 @@ export default function Index() {
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
                 How It Works
-              </a>
+              </Link>
               <a href="#pricing" className="text-gray-700 hover:text-gray-900 text-base">
                 Pricing
               </a>
-              <a href="#company" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">
                 Company
-              </a>
-              <a href="#faq" className="text-gray-700 hover:text-gray-900 text-base">
+              </Link>
+              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">
                 FAQ
-              </a>
+              </Link>
             </nav>
 
             {/* CTA Button */}
@@ -572,9 +573,9 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Features</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white">Document Review & Analysis</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Automated Legal Research</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Intelligent Document Drafting</a></li>
+                <li><a href="#features" className="text-gray-400 hover:text-white">Document Review & Analysis</a></li>
+                <li><a href="#features" className="text-gray-400 hover:text-white">Automated Legal Research</a></li>
+                <li><a href="#features" className="text-gray-400 hover:text-white">Intelligent Document Drafting</a></li>
               </ul>
             </div>
 
@@ -582,8 +583,8 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Pricing</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white">Plans</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">FAQ</a></li>
+                <li><a href="#pricing" className="text-gray-400 hover:text-white">Plans</a></li>
+                <li><Link to="/faq" className="text-gray-400 hover:text-white">FAQ</Link></li>
               </ul>
             </div>
 
@@ -591,8 +592,8 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Legal</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Terms of Service</a></li>
+                <li><Link to="/privacy" className="text-gray-400 hover:text-white">Privacy Policy</Link></li>
+                <li><Link to="/terms" className="text-gray-400 hover:text-white">Terms of Service</Link></li>
               </ul>
             </div>
 
@@ -600,8 +601,8 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Company</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Contact Us</a></li>
+                <li><Link to="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
+                <li><Link to="/contact" className="text-gray-400 hover:text-white">Contact Us</Link></li>
               </ul>
             </div>
           </div>
