@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Check, X } from "lucide-react";
+import { Check, X, Menu } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Index() {
   return (
