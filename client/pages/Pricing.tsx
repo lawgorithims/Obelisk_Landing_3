@@ -278,75 +278,75 @@ export default function Pricing() {
             </div>
 
             {/* Enterprise Plan */}
-            <div className="bg-white rounded-lg border border-gray-300 p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-black mb-4">Enterprise</h3>
-              <p className="text-gray-600 mb-6">
+            <div className="bg-white rounded-lg border border-gray-300 p-6 md:p-8 shadow-lg">
+              <h3 className="text-xl md:text-2xl font-bold text-black mb-3 md:mb-4">Enterprise</h3>
+              <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
                 For large teams providing legal services at scale.
               </p>
-              <div className="mb-8">
-                <span className="text-base font-bold text-black">Contact Sales for Pricing</span>
+              <div className="mb-6 md:mb-8">
+                <span className="text-sm md:text-base font-bold text-black">Contact Sales for Pricing</span>
               </div>
 
-              <hr className="border-gray-200 mb-6" />
+              <hr className="border-gray-200 mb-4 md:mb-6" />
 
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-3 md:space-y-4 mb-6 md:mb-8">
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <div className="text-sm">
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="text-sm md:text-sm">
                     <strong>Unlimited</strong> AI requests
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <div className="text-sm">
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="text-sm md:text-sm">
                     Up to <strong>10</strong> active workspaces
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <div className="text-sm">
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="text-sm md:text-sm">
                     <strong>30 GB</strong> of secure storage per workspace
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">Document review & analysis</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">Document review & analysis</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">Automated legal research</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">Automated legal research</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">Citation validation</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">Citation validation</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">Intelligent document drafting</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">Intelligent document drafting</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">Analytics</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">Analytics</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">API access</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">API access</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-sm">Enterprise level support</span>
+                  <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-sm md:text-sm">Enterprise level support</span>
                 </li>
               </ul>
 
-              <hr className="border-gray-200 mb-6" />
+              <hr className="border-gray-200 mb-4 md:mb-6" />
 
               <div className="space-y-3">
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3">
                   Contact Sales
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full border-black text-black hover:bg-gray-50 font-bold"
+                  className="w-full border-black text-black hover:bg-gray-50 font-bold py-3"
                 >
                   See More Details
                 </Button>
