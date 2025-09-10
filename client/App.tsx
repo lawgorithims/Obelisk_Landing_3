@@ -27,7 +27,7 @@ const App = () => (
             path="/how-it-works"
             element={<Placeholder pageName="How It Works" />}
           />
-          <Route path="/pricing" element={<Index />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/company" element={<Placeholder pageName="Company" />} />
           <Route path="/about" element={<Placeholder pageName="About Us" />} />
           <Route
