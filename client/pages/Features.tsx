@@ -186,7 +186,7 @@ export default function Features() {
       {/* Feature 2 - Automated Legal Research */}
       <section className="bg-neutral-100 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-slate-900 rounded-r-3xl md:rounded-r-[100px] py-12 md:py-16 px-6 md:px-12 lg:px-16 xl:px-20 ml-0 md:ml-24 lg:ml-32 xl:ml-40 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="bg-slate-900 rounded-l-3xl md:rounded-l-[100px] py-12 md:py-16 px-6 md:px-12 lg:px-16 xl:px-20 mr-0 md:-mr-24 lg:-mr-32 xl:-mr-40 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Content - Left on desktop */}
             <div className="text-center md:text-left order-2 md:order-1">
               <h3 className="text-xl md:text-2xl font-bold text-white mb-4 md:mb-6">
