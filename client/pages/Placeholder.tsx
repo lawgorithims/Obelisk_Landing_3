@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 interface PlaceholderProps {
   pageName: string;
@@ -12,16 +13,16 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <div className="flex items-center">
+            <Link to="/" className="flex items-center group">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/2513b0f84015ed4eac75e289f31145a33eba31d8?width=74"
                 alt="Obelisk Logo"
                 className="w-9 h-9 flex-shrink-0 mr-3"
               />
-              <div className="text-black text-xl font-bold tracking-tight">
+              <span className="text-black text-xl font-bold tracking-tight group-hover:opacity-90">
                 OBELISK
-              </div>
-            </div>
+              </span>
+            </Link>
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
