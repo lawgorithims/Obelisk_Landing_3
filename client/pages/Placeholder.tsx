@@ -13,9 +13,11 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="w-9 h-9 bg-black rounded-md flex items-center justify-center mr-3">
-                <div className="w-6 h-6 bg-white rounded-sm"></div>
-              </div>
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/2513b0f84015ed4eac75e289f31145a33eba31d8?width=74"
+                alt="Obelisk Logo"
+                className="w-9 h-9 flex-shrink-0 mr-3"
+              />
               <div className="text-black text-xl font-bold tracking-tight">
                 OBELISK
               </div>
