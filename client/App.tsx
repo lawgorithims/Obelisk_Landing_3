@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import Placeholder from "./pages/Placeholder";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
+import Desktop from "./pages/Desktop";
 
 const queryClient = new QueryClient();
 
