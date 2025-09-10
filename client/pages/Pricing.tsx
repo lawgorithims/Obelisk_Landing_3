@@ -19,21 +19,35 @@ export default function Pricing() {
                 alt="Obelisk logo"
                 className="w-7 h-7 md:w-9 md:h-9 mr-2 md:mr-3"
               />
-              <div className="text-black text-lg md:text-xl font-bold tracking-tight">OBELISK</div>
+              <div className="text-black text-lg md:text-xl font-bold tracking-tight">
+                OBELISK
+              </div>
             </Link>
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/how-it-works"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 How It Works
               </Link>
-              <Link to="/pricing" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/pricing"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 Pricing
               </Link>
-              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/company"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 Company
               </Link>
-              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/faq"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 FAQ
               </Link>
             </nav>
@@ -118,12 +132,16 @@ export default function Pricing() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
             {/* Standard Plan */}
             <div className="bg-white rounded-lg border border-gray-300 p-6 md:p-8 shadow-lg">
-              <h3 className="text-xl md:text-2xl font-bold text-black mb-3 md:mb-4">Standard</h3>
+              <h3 className="text-xl md:text-2xl font-bold text-black mb-3 md:mb-4">
+                Standard
+              </h3>
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
                 For solo practitioners or teams with lighter workloads.
               </p>
               <div className="mb-6 md:mb-8">
-                <span className="text-3xl md:text-4xl font-bold text-black">$24</span>
+                <span className="text-3xl md:text-4xl font-bold text-black">
+                  $24
+                </span>
                 <span className="text-base md:text-lg text-gray-600">/mo</span>
               </div>
 
@@ -150,31 +168,45 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Document review & analysis</span>
+                  <span className="text-sm md:text-sm">
+                    Document review & analysis
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Automated legal research</span>
+                  <span className="text-sm md:text-sm">
+                    Automated legal research
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Citation validation</span>
+                  <span className="text-sm md:text-sm">
+                    Citation validation
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Intelligent document drafting</span>
+                  <span className="text-sm md:text-sm">
+                    Intelligent document drafting
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-gray-500">Analytics</span>
+                  <span className="text-sm md:text-sm text-gray-500">
+                    Analytics
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-gray-500">API access</span>
+                  <span className="text-sm md:text-sm text-gray-500">
+                    API access
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-gray-500">Enterprise level support</span>
+                  <span className="text-sm md:text-sm text-gray-500">
+                    Enterprise level support
+                  </span>
                 </li>
               </ul>
 
@@ -202,12 +234,16 @@ export default function Pricing() {
                 </span>
               </div>
 
-              <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 pt-2 md:pt-0">Premium</h3>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 pt-2 md:pt-0">
+                Premium
+              </h3>
               <p className="text-sm md:text-base text-gray-300 mb-4 md:mb-6">
                 For growing teams looking to uplevel their legal workflows.
               </p>
               <div className="mb-6 md:mb-8">
-                <span className="text-3xl md:text-4xl font-bold text-white">$49</span>
+                <span className="text-3xl md:text-4xl font-bold text-white">
+                  $49
+                </span>
                 <span className="text-base md:text-lg text-gray-300">/mo</span>
               </div>
 
@@ -234,31 +270,45 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-white">Document review & analysis</span>
+                  <span className="text-sm md:text-sm text-white">
+                    Document review & analysis
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-white">Automated legal research</span>
+                  <span className="text-sm md:text-sm text-white">
+                    Automated legal research
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-white">Citation validation</span>
+                  <span className="text-sm md:text-sm text-white">
+                    Citation validation
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-teal-400 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-white">Intelligent document drafting</span>
+                  <span className="text-sm md:text-sm text-white">
+                    Intelligent document drafting
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-gray-500">Analytics</span>
+                  <span className="text-sm md:text-sm text-gray-500">
+                    Analytics
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-gray-500">API Access</span>
+                  <span className="text-sm md:text-sm text-gray-500">
+                    API Access
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm text-gray-500">Enterprise level support</span>
+                  <span className="text-sm md:text-sm text-gray-500">
+                    Enterprise level support
+                  </span>
                 </li>
               </ul>
 
@@ -279,12 +329,16 @@ export default function Pricing() {
 
             {/* Enterprise Plan */}
             <div className="bg-white rounded-lg border border-gray-300 p-6 md:p-8 shadow-lg">
-              <h3 className="text-xl md:text-2xl font-bold text-black mb-3 md:mb-4">Enterprise</h3>
+              <h3 className="text-xl md:text-2xl font-bold text-black mb-3 md:mb-4">
+                Enterprise
+              </h3>
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
                 For large teams providing legal services at scale.
               </p>
               <div className="mb-6 md:mb-8">
-                <span className="text-sm md:text-base font-bold text-black">Contact Sales for Pricing</span>
+                <span className="text-sm md:text-base font-bold text-black">
+                  Contact Sales for Pricing
+                </span>
               </div>
 
               <hr className="border-gray-200 mb-4 md:mb-6" />
@@ -310,19 +364,27 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Document review & analysis</span>
+                  <span className="text-sm md:text-sm">
+                    Document review & analysis
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Automated legal research</span>
+                  <span className="text-sm md:text-sm">
+                    Automated legal research
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Citation validation</span>
+                  <span className="text-sm md:text-sm">
+                    Citation validation
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Intelligent document drafting</span>
+                  <span className="text-sm md:text-sm">
+                    Intelligent document drafting
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
@@ -334,7 +396,9 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-sm md:text-sm">Enterprise level support</span>
+                  <span className="text-sm md:text-sm">
+                    Enterprise level support
+                  </span>
                 </li>
               </ul>
 
@@ -362,44 +426,119 @@ export default function Pricing() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-left">
             {/* Company Info - spans full width on mobile */}
             <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-4 md:mb-6 lg:mb-0 text-center md:text-left">
-              <h3 className="text-white text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-4">Obelisk</h3>
-              <p className="text-gray-400 text-sm md:text-base">© 2025 Obelisk LLC</p>
+              <h3 className="text-white text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-4">
+                Obelisk
+              </h3>
+              <p className="text-gray-400 text-sm md:text-base">
+                © 2025 Obelisk LLC
+              </p>
             </div>
 
             {/* Features Column */}
             <div className="mb-4 md:mb-0">
-              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">Features</h4>
+              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">
+                Features
+              </h4>
               <ul className="space-y-1 md:space-y-2 text-xs md:text-sm lg:text-base">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Document Review & Analysis</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Automated Legal Research</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Intelligent Document Drafting</a></li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Document Review & Analysis
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Automated Legal Research
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Intelligent Document Drafting
+                  </a>
+                </li>
               </ul>
             </div>
 
             {/* Pricing Column */}
             <div className="mb-4 md:mb-0">
-              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">Pricing</h4>
+              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">
+                Pricing
+              </h4>
               <ul className="space-y-1 md:space-y-2 text-xs md:text-sm lg:text-base">
-                <li><Link to="/pricing" className="text-gray-400 hover:text-white transition-colors">Plans</Link></li>
-                <li><Link to="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</Link></li>
+                <li>
+                  <Link
+                    to="/pricing"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Plans
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/faq"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    FAQ
+                  </Link>
+                </li>
               </ul>
             </div>
 
             {/* Legal Column */}
             <div className="mb-4 md:mb-0">
-              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">Legal</h4>
+              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">
+                Legal
+              </h4>
               <ul className="space-y-1 md:space-y-2 text-xs md:text-sm lg:text-base">
-                <li><Link to="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
-                <li><Link to="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
+                <li>
+                  <Link
+                    to="/privacy"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/terms"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Terms of Service
+                  </Link>
+                </li>
               </ul>
             </div>
 
             {/* Company Column */}
             <div className="col-span-2 md:col-span-1">
-              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">Company</h4>
+              <h4 className="text-white text-sm md:text-base lg:text-lg font-bold mb-2 md:mb-3 lg:mb-4">
+                Company
+              </h4>
               <ul className="space-y-1 md:space-y-2 text-xs md:text-sm lg:text-base">
-                <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
-                <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
+                <li>
+                  <Link
+                    to="/about"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Contact Us
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

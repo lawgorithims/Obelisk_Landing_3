@@ -78,19 +78,34 @@ export default function Index() {
           <div className="md:hidden bg-white border-t border-gray-200 py-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <nav className="flex flex-col space-y-4">
-                <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/features"
+                  className="text-gray-700 hover:text-gray-900 text-base"
+                >
                   Features
                 </Link>
-                <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/how-it-works"
+                  className="text-gray-700 hover:text-gray-900 text-base"
+                >
                   How It Works
                 </Link>
-                <a href="#pricing" className="text-gray-700 hover:text-gray-900 text-base">
+                <a
+                  href="#pricing"
+                  className="text-gray-700 hover:text-gray-900 text-base"
+                >
                   Pricing
                 </a>
-                <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/company"
+                  className="text-gray-700 hover:text-gray-900 text-base"
+                >
                   Company
                 </Link>
-                <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/faq"
+                  className="text-gray-700 hover:text-gray-900 text-base"
+                >
                   FAQ
                 </Link>
               </nav>
@@ -119,7 +134,11 @@ export default function Index() {
 
           {/* Subheadline */}
           <p className="text-sm sm:text-lg md:text-xl text-gray-700 max-w-4xl mx-auto mb-8 md:mb-12 leading-relaxed px-6 sm:px-0">
-            Obelisk turns mountains of filings into instant research, fact-checks every claim, and drafts with the precision you expect from seasoned counsel. Bring briefs, exhibits, and discovery into a workspace that retrieves facts, spots mistakes, and assembles airtight drafts with no hallucinations.
+            Obelisk turns mountains of filings into instant research,
+            fact-checks every claim, and drafts with the precision you expect
+            from seasoned counsel. Bring briefs, exhibits, and discovery into a
+            workspace that retrieves facts, spots mistakes, and assembles
+            airtight drafts with no hallucinations.
           </p>
 
           {/* Action Buttons */}
