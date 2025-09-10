@@ -67,9 +67,11 @@ export default function Index() {
             </button>
 
             {/* CTA Button */}
-            <Button className="hidden md:flex bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold mr-3">
-              Enter Dashboard
-            </Button>
+            <Link to="/dashboard" className="hidden md:flex mr-3">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold">
+                Enter Dashboard
+              </Button>
+            </Link>
           </div>
         </div>
 
