@@ -78,6 +78,9 @@ export default function Index() {
           <div className="md:hidden bg-white border-t border-gray-200 py-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <nav className="flex flex-col space-y-4">
+                <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">
+                  Features
+                </Link>
                 <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
                   How It Works
                 </Link>
