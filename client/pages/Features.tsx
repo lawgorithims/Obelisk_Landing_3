@@ -142,7 +142,7 @@ export default function Features() {
                 Document Review & Analysis
               </h3>
               <p className="text-white text-base md:text-lg leading-relaxed mb-6 md:mb-8">
-                Upload case files, contracts, and depositions. Automatically
+                Upload legal documents, contracts, and depositions. Automatically
                 extracts key information, identifies relevant facts, and builds
                 context for your case with intelligent document scanning.
               </p>
