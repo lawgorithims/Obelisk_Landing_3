@@ -23,7 +23,7 @@ export default function HowItWorks() {
             </Link>
 
             {/* Navigation */}
-            <nav className="flex items-center space-x-8">
+            <nav className="hidden md:flex items-center space-x-8">
               <Link to="/features" className="text-gray-700 hover:text-gray-900 text-base">Features</Link>
               <Link to="/how-it-works" className="text-gray-900 font-semibold text-base">How It Works</Link>
               <a href="/#pricing" className="text-gray-700 hover:text-gray-900 text-base">Pricing</a>
