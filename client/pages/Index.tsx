@@ -70,12 +70,6 @@ export default function Index() {
             <Button className="hidden md:flex bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold mr-3">
               Start your 7-day free trial
             </Button>
-            {/* Login Button */}
-            <Link to="/login" className="hidden md:flex">
-              <Button variant="outline" className="border-black text-black hover:bg-gray-50 px-6 py-3 rounded-lg font-bold">
-                Login
-              </Button>
-            </Link>
           </div>
         </div>
 
@@ -114,13 +108,6 @@ export default function Index() {
                 >
                   FAQ
                 </Link>
-                <div className="pt-4 border-t border-gray-200">
-                  <Link to="/login" onClick={() => setIsMobileMenuOpen(false)}>
-                    <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 rounded-lg font-bold">
-                      Login
-                    </Button>
-                  </Link>
-                </div>
               </nav>
             </div>
           </div>
