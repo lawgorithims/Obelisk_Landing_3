@@ -109,11 +109,8 @@ export default function Index() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto mb-12 leading-relaxed font-garamond">
-            Obelisk is a legal drafting tool that verifies your work against
-            authoritative sources. Whether reviewing case law, preparing briefs,
-            or analyzing contracts, Obelisk ensures accuracy by fact-checking
-            documents against the record.
+          <p className="text-sm sm:text-lg md:text-xl text-gray-700 max-w-4xl mx-auto mb-8 md:mb-12 leading-relaxed px-6 sm:px-0">
+            Obelisk turns mountains of filings into instant research, fact-checks every claim, and drafts with the precision you expect from seasoned counsel. Bring briefs, exhibits, and discovery into a workspace that retrieves facts, spots mistakes, and assembles airtight drafts with no hallucinations.
           </p>
 
           {/* Action Buttons */}
