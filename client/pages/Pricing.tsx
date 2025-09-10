@@ -317,9 +317,11 @@ export default function Pricing() {
               <hr className="border-gray-600 mb-4 md:mb-6" />
 
               <div className="space-y-3">
-                <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black font-bold py-3">
-                  Try for free
-                </Button>
+                <Link to="/desktop">
+                  <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black font-bold py-3">
+                    Try for free
+                  </Button>
+                </Link>
                 <Button
                   variant="outline"
                   className="w-full bg-white border-white text-black hover:bg-gray-100 font-bold py-3"
