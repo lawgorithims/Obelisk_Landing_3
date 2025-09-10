@@ -91,7 +91,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-neutral-100 py-20">
+      <section className="bg-neutral-100 py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Hero Badge */}
           <div className="inline-flex items-center justify-center gap-2 px-4 py-1 bg-teal-400 text-black text-xs font-bold rounded-full mb-8">
