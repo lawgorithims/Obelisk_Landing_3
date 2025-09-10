@@ -16,21 +16,35 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
               <div className="w-9 h-9 bg-black rounded-md flex items-center justify-center mr-3">
                 <div className="w-6 h-6 bg-white rounded-sm"></div>
               </div>
-              <div className="text-black text-xl font-bold tracking-tight">OBELISK</div>
+              <div className="text-black text-xl font-bold tracking-tight">
+                OBELISK
+              </div>
             </div>
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="/#how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
+              <a
+                href="/#how-it-works"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 How It Works
               </a>
-              <a href="/#pricing" className="text-gray-700 hover:text-gray-900 text-base">
+              <a
+                href="/#pricing"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 Pricing
               </a>
-              <a href="#company" className="text-gray-700 hover:text-gray-900 text-base">
+              <a
+                href="#company"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 Company
               </a>
-              <a href="#faq" className="text-gray-700 hover:text-gray-900 text-base">
+              <a
+                href="#faq"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 FAQ
               </a>
             </nav>
@@ -50,23 +64,25 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
             {pageName} Page
           </h1>
           <p className="text-xl text-gray-700 mb-8">
-            This page is coming soon. We're working hard to bring you more features and content.
+            This page is coming soon. We're working hard to bring you more
+            features and content.
           </p>
           <p className="text-lg text-gray-600 mb-12">
-            In the meantime, feel free to explore our main features or contact us if you have any questions.
+            In the meantime, feel free to explore our main features or contact
+            us if you have any questions.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button 
+            <Button
               className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-bold"
-              onClick={() => window.location.href = '/'}
+              onClick={() => (window.location.href = "/")}
             >
               Back to Home
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="border-black text-black hover:bg-gray-50 px-8 py-3 rounded-lg font-bold"
-              onClick={() => window.location.href = '/#pricing'}
+              onClick={() => (window.location.href = "/#pricing")}
             >
               View Pricing
             </Button>
@@ -88,9 +104,30 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Features</h4>
               <ul className="space-y-2">
-                <li><a href="/#features" className="text-gray-400 hover:text-white">Document Review & Analysis</a></li>
-                <li><a href="/#features" className="text-gray-400 hover:text-white">Automated Legal Research</a></li>
-                <li><a href="/#features" className="text-gray-400 hover:text-white">Intelligent Document Drafting</a></li>
+                <li>
+                  <a
+                    href="/#features"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Document Review & Analysis
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#features"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Automated Legal Research
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#features"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Intelligent Document Drafting
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -98,8 +135,19 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Pricing</h4>
               <ul className="space-y-2">
-                <li><a href="/#pricing" className="text-gray-400 hover:text-white">Plans</a></li>
-                <li><a href="/faq" className="text-gray-400 hover:text-white">FAQ</a></li>
+                <li>
+                  <a
+                    href="/#pricing"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Plans
+                  </a>
+                </li>
+                <li>
+                  <a href="/faq" className="text-gray-400 hover:text-white">
+                    FAQ
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -107,8 +155,16 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Company</h4>
               <ul className="space-y-2">
-                <li><a href="/about" className="text-gray-400 hover:text-white">About Us</a></li>
-                <li><a href="/contact" className="text-gray-400 hover:text-white">Contact Us</a></li>
+                <li>
+                  <a href="/about" className="text-gray-400 hover:text-white">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" className="text-gray-400 hover:text-white">
+                    Contact Us
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

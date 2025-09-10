@@ -14,28 +14,44 @@ export default function Index() {
               <div className="w-9 h-9 bg-black rounded-md flex items-center justify-center mr-3">
                 <div className="w-6 h-6 bg-white rounded-sm"></div>
               </div>
-              <div className="text-black text-xl font-bold tracking-tight">OBELISK</div>
+              <div className="text-black text-xl font-bold tracking-tight">
+                OBELISK
+              </div>
             </div>
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/how-it-works"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 How It Works
               </Link>
-              <a href="#pricing" className="text-gray-700 hover:text-gray-900 text-base">
+              <a
+                href="#pricing"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 Pricing
               </a>
-              <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/company"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 Company
               </Link>
-              <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">
+              <Link
+                to="/faq"
+                className="text-gray-700 hover:text-gray-900 text-base"
+              >
                 FAQ
               </Link>
             </nav>
 
             {/* CTA Button */}
             <Button className="bg-slate-900 hover:bg-slate-800 text-white px-4 sm:px-6 py-3 rounded-lg font-bold text-sm sm:text-base">
-              <span className="hidden sm:inline">Start your 7-day free trial</span>
+              <span className="hidden sm:inline">
+                Start your 7-day free trial
+              </span>
               <span className="sm:hidden">Free Trial</span>
             </Button>
           </div>
@@ -57,9 +73,10 @@ export default function Index() {
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-gray-700 max-w-4xl mx-auto mb-12 leading-relaxed font-garamond">
-            Obelisk is a legal drafting tool that verifies your work against authoritative sources.
-            Whether reviewing case law, preparing briefs, or analyzing contracts, Obelisk ensures accuracy
-            by fact-checking documents against the record.
+            Obelisk is a legal drafting tool that verifies your work against
+            authoritative sources. Whether reviewing case law, preparing briefs,
+            or analyzing contracts, Obelisk ensures accuracy by fact-checking
+            documents against the record.
           </p>
 
           {/* Action Buttons */}
@@ -67,16 +84,19 @@ export default function Index() {
             <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-bold">
               Try For Free
             </Button>
-            <Button variant="outline" className="border-black text-black hover:bg-gray-50 px-8 py-3 rounded-lg font-bold">
+            <Button
+              variant="outline"
+              className="border-black text-black hover:bg-gray-50 px-8 py-3 rounded-lg font-bold"
+            >
               Membership
             </Button>
           </div>
 
           {/* Hero Image */}
           <div className="relative max-w-5xl mx-auto">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/0c5125fa7b77fcf0d1725c187e228eb3b610412d?width=1868" 
-              alt="Obelisk Dashboard Screenshot" 
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/0c5125fa7b77fcf0d1725c187e228eb3b610412d?width=1868"
+              alt="Obelisk Dashboard Screenshot"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
           </div>
@@ -99,48 +119,57 @@ export default function Index() {
             {/* Document Review & Analysis */}
             <div className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/391a973641e0fcde8416c1bc000f65b00b5415c1?width=160" 
-                  alt="Document Review Icon" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/391a973641e0fcde8416c1bc000f65b00b5415c1?width=160"
+                  alt="Document Review Icon"
                   className="w-20 h-20"
                 />
               </div>
-              <h3 className="text-xl font-bold text-white mb-4">Document Review & Analysis</h3>
+              <h3 className="text-xl font-bold text-white mb-4">
+                Document Review & Analysis
+              </h3>
               <p className="text-gray-300 leading-relaxed">
-                Upload case files, contracts, and depositions. Automatically extracts key information, 
-                identifies relevant facts, and builds context for your case with intelligent document scanning.
+                Upload case files, contracts, and depositions. Automatically
+                extracts key information, identifies relevant facts, and builds
+                context for your case with intelligent document scanning.
               </p>
             </div>
 
             {/* Automated Legal Research */}
             <div className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/9ecb52ffffd95800bd0c02824ed7fc7fbd659d8f?width=160" 
-                  alt="Legal Research Icon" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/9ecb52ffffd95800bd0c02824ed7fc7fbd659d8f?width=160"
+                  alt="Legal Research Icon"
                   className="w-20 h-20"
                 />
               </div>
-              <h3 className="text-xl font-bold text-white mb-4">Automated Legal Research</h3>
+              <h3 className="text-xl font-bold text-white mb-4">
+                Automated Legal Research
+              </h3>
               <p className="text-gray-300 leading-relaxed">
-                Searches across legal databases, case law, and precedents. Identifies relevant cases, 
-                statutes, and judicial trends to strengthen your legal strategy with comprehensive research.
+                Searches across legal databases, case law, and precedents.
+                Identifies relevant cases, statutes, and judicial trends to
+                strengthen your legal strategy with comprehensive research.
               </p>
             </div>
 
             {/* Intelligent Document Drafting */}
             <div className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/a389f5c6d4335f3ed58ce1befbbf08dd22cc9fde?width=160" 
-                  alt="Document Drafting Icon" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/a389f5c6d4335f3ed58ce1befbbf08dd22cc9fde?width=160"
+                  alt="Document Drafting Icon"
                   className="w-20 h-20"
                 />
               </div>
-              <h3 className="text-xl font-bold text-white mb-4">Intelligent Document Drafting</h3>
+              <h3 className="text-xl font-bold text-white mb-4">
+                Intelligent Document Drafting
+              </h3>
               <p className="text-gray-300 leading-relaxed">
-                Generate legal documents with proper citations, formatting, and reasoning. 
-                Writes in your style while ensuring accuracy and legal compliance with automated formatting.
+                Generate legal documents with proper citations, formatting, and
+                reasoning. Writes in your style while ensuring accuracy and
+                legal compliance with automated formatting.
               </p>
             </div>
           </div>
@@ -164,8 +193,9 @@ export default function Index() {
               </div>
               <h3 className="text-lg font-bold text-black mb-4">Save Time</h3>
               <p className="text-gray-700">
-                Instant research, automated review, and drafting speed up routine legal workflow, 
-                allowing attorneys to focus on higher-value strategic tasks.
+                Instant research, automated review, and drafting speed up
+                routine legal workflow, allowing attorneys to focus on
+                higher-value strategic tasks.
               </p>
             </div>
 
@@ -176,8 +206,8 @@ export default function Index() {
               </div>
               <h3 className="text-lg font-bold text-black mb-4">Automation</h3>
               <p className="text-gray-700">
-                Leverage AI to do tedious and repetitive work for you. Focus on the big picture, 
-                and do mountains of work in seconds.
+                Leverage AI to do tedious and repetitive work for you. Focus on
+                the big picture, and do mountains of work in seconds.
               </p>
             </div>
 
@@ -188,8 +218,9 @@ export default function Index() {
               </div>
               <h3 className="text-lg font-bold text-black mb-4">Precision</h3>
               <p className="text-gray-700">
-                Fact-checking every claim and extracting key information ensures work is thorough 
-                and reliable, reducing risk of errors or missed details.
+                Fact-checking every claim and extracting key information ensures
+                work is thorough and reliable, reducing risk of errors or missed
+                details.
               </p>
             </div>
 
@@ -198,10 +229,13 @@ export default function Index() {
               <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-6">
                 <Check className="w-6 h-6 text-green-600" />
               </div>
-              <h3 className="text-lg font-bold text-black mb-4">Deep Research</h3>
+              <h3 className="text-lg font-bold text-black mb-4">
+                Deep Research
+              </h3>
               <p className="text-gray-700">
-                Access to comprehensive legal databases and intelligent identification of relevant 
-                cases and statutes strengthens case arguments and overall strategy.
+                Access to comprehensive legal databases and intelligent
+                identification of relevant cases and statutes strengthens case
+                arguments and overall strategy.
               </p>
             </div>
 
@@ -210,10 +244,12 @@ export default function Index() {
               <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-6">
                 <Check className="w-6 h-6 text-green-600" />
               </div>
-              <h3 className="text-lg font-bold text-black mb-4">Drafting Speed</h3>
+              <h3 className="text-lg font-bold text-black mb-4">
+                Drafting Speed
+              </h3>
               <p className="text-gray-700">
-                Meet deadlines effortlessly and manage higher caseloads, all while keeping pace 
-                with today's demanding legal environment.
+                Meet deadlines effortlessly and manage higher caseloads, all
+                while keeping pace with today's demanding legal environment.
               </p>
             </div>
 
@@ -222,10 +258,13 @@ export default function Index() {
               <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-6">
                 <Check className="w-6 h-6 text-green-600" />
               </div>
-              <h3 className="text-lg font-bold text-black mb-4">Quality Assurance</h3>
+              <h3 className="text-lg font-bold text-black mb-4">
+                Quality Assurance
+              </h3>
               <p className="text-gray-700">
-                Tools identify mistakes and help maintain consistent logic and formatting, 
-                reducing editorial and compliance risk across documents.
+                Tools identify mistakes and help maintain consistent logic and
+                formatting, reducing editorial and compliance risk across
+                documents.
               </p>
             </div>
           </div>
@@ -245,20 +284,21 @@ export default function Index() {
             {/* Testimonial 1 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
               <div className="w-8 h-8 mb-6">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60" 
-                  alt="Quote Icon" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60"
+                  alt="Quote Icon"
                   className="w-8 h-8"
                 />
               </div>
               <p className="text-white mb-6 leading-relaxed">
-                "Obelisk transformed our firm's workflow—I'm amazed by the speed and accuracy. 
-                Our attorneys now focus on strategy, and our clients are seeing faster, more reliable results every day."
+                "Obelisk transformed our firm's workflow—I'm amazed by the speed
+                and accuracy. Our attorneys now focus on strategy, and our
+                clients are seeing faster, more reliable results every day."
               </p>
               <div className="flex items-center">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80" 
-                  alt="Profile" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80"
+                  alt="Profile"
                   className="w-10 h-10 rounded-full mr-3"
                 />
                 <div>
@@ -271,25 +311,29 @@ export default function Index() {
             {/* Testimonial 2 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
               <div className="w-8 h-8 mb-6">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60" 
-                  alt="Quote Icon" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60"
+                  alt="Quote Icon"
                   className="w-8 h-8"
                 />
               </div>
               <p className="text-white mb-6 leading-relaxed">
-                "Thanks to Obelisk, our research and drafting process is seamless. 
-                The automation tools catch every detail, and turnaround times have never been better. We highly recommend their service!"
+                "Thanks to Obelisk, our research and drafting process is
+                seamless. The automation tools catch every detail, and
+                turnaround times have never been better. We highly recommend
+                their service!"
               </p>
               <div className="flex items-center">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80" 
-                  alt="Profile" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80"
+                  alt="Profile"
                   className="w-10 h-10 rounded-full mr-3"
                 />
                 <div>
                   <div className="text-white font-bold">Czar Parreno</div>
-                  <div className="text-gray-400 text-sm">Ultimate Kronos Group</div>
+                  <div className="text-gray-400 text-sm">
+                    Ultimate Kronos Group
+                  </div>
                 </div>
               </div>
             </div>
@@ -297,20 +341,21 @@ export default function Index() {
             {/* Testimonial 3 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
               <div className="w-8 h-8 mb-6">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60" 
-                  alt="Quote Icon" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60"
+                  alt="Quote Icon"
                   className="w-8 h-8"
                 />
               </div>
               <p className="text-white mb-6 leading-relaxed">
-                "With Obelisk, we deliver polished, compliant documents faster than ever. 
-                The platform's precision and quality assurance give us peace of mind and have won praise from our clients."
+                "With Obelisk, we deliver polished, compliant documents faster
+                than ever. The platform's precision and quality assurance give
+                us peace of mind and have won praise from our clients."
               </p>
               <div className="flex items-center">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80" 
-                  alt="Profile" 
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80"
+                  alt="Profile"
                   className="w-10 h-10 rounded-full mr-3"
                 />
                 <div>
@@ -339,14 +384,16 @@ export default function Index() {
             {/* Standard Plan */}
             <div className="bg-white rounded-lg border-2 border-gray-200 p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-black mb-4">Standard</h3>
-              <p className="text-gray-600 mb-6">For solo practitioners or teams with lighter workloads.</p>
+              <p className="text-gray-600 mb-6">
+                For solo practitioners or teams with lighter workloads.
+              </p>
               <div className="mb-8">
                 <span className="text-4xl font-bold text-black">$24</span>
                 <span className="text-lg text-gray-600">/mo</span>
               </div>
-              
+
               <hr className="border-gray-200 mb-6" />
-              
+
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
@@ -392,7 +439,9 @@ export default function Index() {
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-400 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-gray-500">Enterprise level support</span>
+                  <span className="text-gray-500">
+                    Enterprise level support
+                  </span>
                 </li>
               </ul>
 
@@ -402,7 +451,10 @@ export default function Index() {
                 <Button className="w-full bg-black hover:bg-gray-800 text-white">
                   Try for free
                 </Button>
-                <Button variant="outline" className="w-full border-black text-black hover:bg-gray-50">
+                <Button
+                  variant="outline"
+                  className="w-full border-black text-black hover:bg-gray-50"
+                >
                   See More Details
                 </Button>
               </div>
@@ -415,16 +467,18 @@ export default function Index() {
                   MOST POPULAR
                 </span>
               </div>
-              
+
               <h3 className="text-2xl font-bold text-white mb-4">Premium</h3>
-              <p className="text-gray-300 mb-6">For growing teams looking to uplevel their legal workflows.</p>
+              <p className="text-gray-300 mb-6">
+                For growing teams looking to uplevel their legal workflows.
+              </p>
               <div className="mb-8">
                 <span className="text-4xl font-bold text-white">$49</span>
                 <span className="text-lg text-gray-300">/mo</span>
               </div>
-              
+
               <hr className="border-gray-600 mb-6" />
-              
+
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
@@ -458,7 +512,9 @@ export default function Index() {
                 </li>
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-teal-400 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-white">Intelligent document drafting</span>
+                  <span className="text-white">
+                    Intelligent document drafting
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-500 mr-3 mt-1 flex-shrink-0" />
@@ -470,7 +526,9 @@ export default function Index() {
                 </li>
                 <li className="flex items-start">
                   <X className="w-4 h-4 text-gray-500 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-gray-500">Enterprise level support</span>
+                  <span className="text-gray-500">
+                    Enterprise level support
+                  </span>
                 </li>
               </ul>
 
@@ -480,7 +538,10 @@ export default function Index() {
                 <Button className="w-full bg-teal-400 hover:bg-teal-500 text-black">
                   Try for free
                 </Button>
-                <Button variant="outline" className="w-full border-white text-white hover:bg-gray-800">
+                <Button
+                  variant="outline"
+                  className="w-full border-white text-white hover:bg-gray-800"
+                >
                   See More Details
                 </Button>
               </div>
@@ -489,13 +550,17 @@ export default function Index() {
             {/* Enterprise Plan */}
             <div className="bg-white rounded-lg border-2 border-gray-200 p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-black mb-4">Enterprise</h3>
-              <p className="text-gray-600 mb-6">For large teams providing legal services at scale.</p>
+              <p className="text-gray-600 mb-6">
+                For large teams providing legal services at scale.
+              </p>
               <div className="mb-8">
-                <span className="text-lg font-bold text-black">Contact Sales for Pricing</span>
+                <span className="text-lg font-bold text-black">
+                  Contact Sales for Pricing
+                </span>
               </div>
-              
+
               <hr className="border-gray-200 mb-6" />
-              
+
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start">
                   <Check className="w-4 h-4 text-green-600 mr-3 mt-1 flex-shrink-0" />
@@ -551,7 +616,10 @@ export default function Index() {
                 <Button className="w-full bg-black hover:bg-gray-800 text-white">
                   Contact Sales
                 </Button>
-                <Button variant="outline" className="w-full border-black text-black hover:bg-gray-50">
+                <Button
+                  variant="outline"
+                  className="w-full border-black text-black hover:bg-gray-50"
+                >
                   See More Details
                 </Button>
               </div>
@@ -574,9 +642,30 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Features</h4>
               <ul className="space-y-2">
-                <li><a href="#features" className="text-gray-400 hover:text-white">Document Review & Analysis</a></li>
-                <li><a href="#features" className="text-gray-400 hover:text-white">Automated Legal Research</a></li>
-                <li><a href="#features" className="text-gray-400 hover:text-white">Intelligent Document Drafting</a></li>
+                <li>
+                  <a
+                    href="#features"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Document Review & Analysis
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#features"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Automated Legal Research
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#features"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Intelligent Document Drafting
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -584,8 +673,16 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Pricing</h4>
               <ul className="space-y-2">
-                <li><a href="#pricing" className="text-gray-400 hover:text-white">Plans</a></li>
-                <li><Link to="/faq" className="text-gray-400 hover:text-white">FAQ</Link></li>
+                <li>
+                  <a href="#pricing" className="text-gray-400 hover:text-white">
+                    Plans
+                  </a>
+                </li>
+                <li>
+                  <Link to="/faq" className="text-gray-400 hover:text-white">
+                    FAQ
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -593,8 +690,19 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Legal</h4>
               <ul className="space-y-2">
-                <li><Link to="/privacy" className="text-gray-400 hover:text-white">Privacy Policy</Link></li>
-                <li><Link to="/terms" className="text-gray-400 hover:text-white">Terms of Service</Link></li>
+                <li>
+                  <Link
+                    to="/privacy"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/terms" className="text-gray-400 hover:text-white">
+                    Terms of Service
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -602,8 +710,19 @@ export default function Index() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Company</h4>
               <ul className="space-y-2">
-                <li><Link to="/about" className="text-gray-400 hover:text-white">About Us</Link></li>
-                <li><Link to="/contact" className="text-gray-400 hover:text-white">Contact Us</Link></li>
+                <li>
+                  <Link to="/about" className="text-gray-400 hover:text-white">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact"
+                    className="text-gray-400 hover:text-white"
+                  >
+                    Contact Us
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
-        'garamond': ['EB Garamond', 'serif'],
+        inter: ["Inter", "sans-serif"],
+        garamond: ["EB Garamond", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
