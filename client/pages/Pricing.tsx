@@ -11,15 +11,15 @@ export default function Pricing() {
       {/* Header */}
       <header className="bg-neutral-100 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/2513b0f84015ed4eac75e289f31145a33eba31d8?width=74"
                 alt="Obelisk logo"
-                className="w-9 h-9 mr-3"
+                className="w-7 h-7 md:w-9 md:h-9 mr-2 md:mr-3"
               />
-              <div className="text-black text-xl font-bold tracking-tight">OBELISK</div>
+              <div className="text-black text-lg md:text-xl font-bold tracking-tight">OBELISK</div>
             </Link>
 
             {/* Navigation */}
@@ -39,11 +39,15 @@ export default function Pricing() {
             </nav>
 
             {/* Mobile Menu Button */}
-            <button 
+            <button
               className="md:hidden p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              <Menu className="w-6 h-6 text-black" />
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6 text-black" />
+              ) : (
+                <Menu className="w-6 h-6 text-black" />
+              )}
             </button>
 
             {/* CTA Button */}
@@ -52,24 +56,45 @@ export default function Pricing() {
             </Button>
           </div>
         </div>
-        
+
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200 py-4">
+          <div className="md:hidden bg-white border-t border-gray-200 py-4 absolute top-16 left-0 right-0 z-50 shadow-lg">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <nav className="flex flex-col space-y-4">
-                <Link to="/how-it-works" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/how-it-works"
+                  className="text-gray-700 hover:text-gray-900 text-base py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   How It Works
                 </Link>
-                <Link to="/pricing" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/pricing"
+                  className="text-gray-700 hover:text-gray-900 text-base py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   Pricing
                 </Link>
-                <Link to="/company" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/company"
+                  className="text-gray-700 hover:text-gray-900 text-base py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   Company
                 </Link>
-                <Link to="/faq" className="text-gray-700 hover:text-gray-900 text-base">
+                <Link
+                  to="/faq"
+                  className="text-gray-700 hover:text-gray-900 text-base py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
                   FAQ
                 </Link>
+                <div className="pt-4 border-t border-gray-200">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 rounded-lg font-bold">
+                    Start your 7-day free trial
+                  </Button>
+                </div>
               </nav>
             </div>
           </div>
