@@ -157,7 +157,7 @@ export default function Company() {
 
           {/* Right-side Lottie animation */}
           <div className="w-full md:justify-self-end">
-            <div className="bg-transparent border-0 rounded-none shadow-none p-0 overflow-hidden flex items-center justify-center -mt-6 md:-mt-10">
+            <div className="bg-transparent border-0 rounded-none shadow-none p-0 overflow-hidden flex items-center justify-center -mt-16 md:-mt-28">
               <div ref={lottieRef} className="w-full h-[700px] sm:h-[880px] md:h-[1100px]" aria-label="Obelisk loading animation" />
             </div>
           </div>
