@@ -1,10 +1,43 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Company() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const lottieRef = useRef<HTMLDivElement | null>(null);
+  const lottieInstance = useRef<any>(null);
+
+  useEffect(() => {
+    if ((window as any).lottie) {
+      lottieInstance.current = (window as any).lottie.loadAnimation({
+        container: lottieRef.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "https://cdn.builder.io/o/assets%2Fa38e23338308499f98538cb586611bd1%2Fd715eb110faf4567a366dd9f6ab190b0?alt=media&token=73ac4903-b0fc-4f43-a087-ccd1cc7c3c69&apiKey=a38e23338308499f98538cb586611bd1",
+      });
+      return () => lottieInstance.current?.destroy?.();
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js";
+    script.async = true;
+    script.onload = () => {
+      lottieInstance.current = (window as any).lottie.loadAnimation({
+        container: lottieRef.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "https://cdn.builder.io/o/assets%2Fa38e23338308499f98538cb586611bd1%2Fd715eb110faf4567a366dd9f6ab190b0?alt=media&token=73ac4903-b0fc-4f43-a087-ccd1cc7c3c69&apiKey=a38e23338308499f98538cb586611bd1",
+      });
+    };
+    document.body.appendChild(script);
+    return () => {
+      lottieInstance.current?.destroy?.();
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-neutral-100">
@@ -69,40 +102,49 @@ export default function Company() {
 
       {/* Company Content */}
       <section className="py-16 md:py-20">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl md:text-5xl font-bold text-black mb-6">Company</h1>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold text-black mb-6">Company</h1>
 
-          <div className="space-y-6 text-lg leading-relaxed text-gray-800">
-            <p>
-              Obelisk was founded by <span className="font-semibold">Benjamin Suslavich</span>, an attorney and engineer,
-              and <span className="font-semibold">Schuyler Gleaves</span>, a former Microsoft software engineer.
-            </p>
-            <p>
-              We created Obelisk with a clear mission: to eliminate the tedious, time-consuming tasks that slow attorneys down,
-              so they can focus on what truly matters — strategy, advocacy, and serving their clients.
-            </p>
-            <p>
-              Too often, legal technology adds complexity instead of solving real problems. By combining Benjamin’s legal
-              experience with Schuyler’s engineering expertise, we built a platform that actually works for lawyers. Obelisk
-              verifies work against authoritative sources, streamlines drafting, and reduces the risk of error.
-            </p>
-            <p>
-              Our vision is simple: empower attorneys with tools that save time, ensure accuracy, and let them dedicate their
-              energy to the practice of law.
-            </p>
+            <div className="space-y-6 text-lg leading-relaxed text-gray-800">
+              <p>
+                Obelisk was founded by <span className="font-semibold">Benjamin Suslavich</span>, an attorney and engineer,
+                and <span className="font-semibold">Schuyler Gleaves</span>, a former Microsoft software engineer.
+              </p>
+              <p>
+                We created Obelisk with a clear mission: to eliminate the tedious, time-consuming tasks that slow attorneys down,
+                so they can focus on what truly matters — strategy, advocacy, and serving their clients.
+              </p>
+              <p>
+                Too often, legal technology adds complexity instead of solving real problems. By combining Benjamin’s legal
+                experience with Schuyler’s engineering expertise, we built a platform that actually works for lawyers. Obelisk
+                verifies work against authoritative sources, streamlines drafting, and reduces the risk of error.
+              </p>
+              <p>
+                Our vision is simple: empower attorneys with tools that save time, ensure accuracy, and let them dedicate their
+                energy to the practice of law.
+              </p>
+            </div>
+
+            <div className="mt-10 flex gap-4">
+              <Link to="/dashboard">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-bold">
+                  Enter Dashboard
+                </Button>
+              </Link>
+              <a href="/#pricing">
+                <Button variant="outline" className="border-black text-black hover:bg-gray-50 px-8 py-3 rounded-lg font-bold">
+                  View Pricing
+                </Button>
+              </a>
+            </div>
           </div>
 
-          <div className="mt-10 flex gap-4 justify-center">
-            <Link to="/dashboard">
-              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-bold">
-                Enter Dashboard
-              </Button>
-            </Link>
-            <a href="/#pricing">
-              <Button variant="outline" className="border-black text-black hover:bg-gray-50 px-8 py-3 rounded-lg font-bold">
-                View Pricing
-              </Button>
-            </a>
+          {/* Right-side Lottie animation */}
+          <div className="w-full md:justify-self-end">
+            <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-4 md:p-6">
+              <div ref={lottieRef} className="w-full h-64 sm:h-80 md:h-[420px]" aria-label="Obelisk loading animation" />
+            </div>
           </div>
         </div>
       </section>
