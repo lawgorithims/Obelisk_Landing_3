@@ -7,7 +7,7 @@ export default function Company() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const lottieRef = useRef<HTMLDivElement | null>(null);
   const lottieInstance = useRef<any>(null);
-  const ZOOM = 2;
+  const ZOOM = 4;
   const applyZoom = () => {
     const svg = lottieRef.current?.querySelector('svg') as SVGElement | null;
     if (svg) {
