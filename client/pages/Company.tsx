@@ -102,7 +102,7 @@ export default function Company() {
 
       {/* Company Content */}
       <section className="py-16 md:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           <div>
             <h1 className="text-3xl md:text-5xl font-bold text-black mb-6">Company</h1>
 
@@ -142,7 +142,7 @@ export default function Company() {
 
           {/* Right-side Lottie animation */}
           <div className="w-full md:justify-self-end">
-            <div className="bg-white border border-gray-200 rounded-xl shadow-sm p-2 md:p-3">
+            <div className="bg-transparent border-0 rounded-none shadow-none p-0">
               <div ref={lottieRef} className="w-full h-[512px] sm:h-[640px] md:h-[840px]" aria-label="Obelisk loading animation" />
             </div>
           </div>
