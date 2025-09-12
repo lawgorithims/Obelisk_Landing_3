@@ -135,7 +135,7 @@ export default function Index() {
 
           {/* Main Headline */}
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 md:mb-6 leading-tight tracking-tight">
-            Build Stronger Cases, Faster
+            Obelisk makes you a better lawyer
           </h1>
 
           {/* Subheadline */}
