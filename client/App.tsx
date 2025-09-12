@@ -14,6 +14,7 @@ import Pricing from "./pages/Pricing";
 import HowItWorks from "./pages/HowItWorks";
 import Desktop from "./pages/Desktop";
 import Dashboard from "./pages/Dashboard";
+import Company from "./pages/Company";
 
 const queryClient = new QueryClient();
 
