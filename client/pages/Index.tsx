@@ -353,28 +353,40 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Testimonial 1 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
-
               <p className="text-white mb-6 leading-relaxed">
-                <span className="block text-xl font-bold">Accuracy You Can Trust</span>
-                <span className="block text-gray-300">Verify every draft against authoritative case law and statutes to reduce risk.</span>
+                <span className="block text-xl font-bold">
+                  Accuracy You Can Trust
+                </span>
+                <span className="block text-gray-300">
+                  Verify every draft against authoritative case law and statutes
+                  to reduce risk.
+                </span>
               </p>
             </div>
 
             {/* Testimonial 2 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
-
               <p className="text-white mb-6 leading-relaxed">
-                <span className="block text-xl font-bold">Time Saved on Every Task</span>
-                <span className="block text-gray-300">Streamlined workflows cut research and drafting time dramatically.</span>
+                <span className="block text-xl font-bold">
+                  Time Saved on Every Task
+                </span>
+                <span className="block text-gray-300">
+                  Streamlined workflows cut research and drafting time
+                  dramatically.
+                </span>
               </p>
             </div>
 
             {/* Testimonial 3 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
-
               <p className="text-white mb-6 leading-relaxed">
-                <span className="block text-xl font-bold">Confidence in Every Document</span>
-                <span className="block text-gray-300">Automated checks ensure briefs, contracts, and filings are reliable before submission.</span>
+                <span className="block text-xl font-bold">
+                  Confidence in Every Document
+                </span>
+                <span className="block text-gray-300">
+                  Automated checks ensure briefs, contracts, and filings are
+                  reliable before submission.
+                </span>
               </p>
             </div>
           </div>
