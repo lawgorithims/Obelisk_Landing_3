@@ -353,82 +353,29 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Testimonial 1 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
-              <div className="w-8 h-8 mb-6">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60"
-                  alt="Quote Icon"
-                  className="w-8 h-8"
-                />
-              </div>
+
               <p className="text-white mb-6 leading-relaxed">
                 <span className="block text-xl font-bold">Accuracy You Can Trust</span>
                 <span className="block text-gray-300">Verify every draft against authoritative case law and statutes to reduce risk.</span>
               </p>
-              <div className="flex items-center">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80"
-                  alt="Profile"
-                  className="w-10 h-10 rounded-full mr-3"
-                />
-                <div>
-                  <div className="text-white font-bold">Jhon Ibanez</div>
-                  <div className="text-gray-400 text-sm">Marvin Legal</div>
-                </div>
-              </div>
             </div>
 
             {/* Testimonial 2 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
-              <div className="w-8 h-8 mb-6">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60"
-                  alt="Quote Icon"
-                  className="w-8 h-8"
-                />
-              </div>
+
               <p className="text-white mb-6 leading-relaxed">
                 <span className="block text-xl font-bold">Time Saved on Every Task</span>
                 <span className="block text-gray-300">Streamlined workflows cut research and drafting time dramatically.</span>
               </p>
-              <div className="flex items-center">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80"
-                  alt="Profile"
-                  className="w-10 h-10 rounded-full mr-3"
-                />
-                <div>
-                  <div className="text-white font-bold">Czar Parreno</div>
-                  <div className="text-gray-400 text-sm">
-                    Ultimate Kronos Group
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* Testimonial 3 */}
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700">
-              <div className="w-8 h-8 mb-6">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/42d7df9d7ba13899e3b812ca7cfd6f9482472696?width=60"
-                  alt="Quote Icon"
-                  className="w-8 h-8"
-                />
-              </div>
+
               <p className="text-white mb-6 leading-relaxed">
                 <span className="block text-xl font-bold">Confidence in Every Document</span>
                 <span className="block text-gray-300">Automated checks ensure briefs, contracts, and filings are reliable before submission.</span>
               </p>
-              <div className="flex items-center">
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34b9d661568fe19bd7510caa804268748620f69d?width=80"
-                  alt="Profile"
-                  className="w-10 h-10 rounded-full mr-3"
-                />
-                <div>
-                  <div className="text-white font-bold">Priva Singh</div>
-                  <div className="text-gray-400 text-sm">Brightside Equity</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
