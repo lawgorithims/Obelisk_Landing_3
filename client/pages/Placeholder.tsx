@@ -72,7 +72,7 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
 
             {/* CTA Button */}
             <Button className="hidden md:flex bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold">
-              Start your 7-day free trial
+              Enter Dashboard
             </Button>
           </div>
         </div>
