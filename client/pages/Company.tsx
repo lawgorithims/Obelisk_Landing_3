@@ -7,6 +7,14 @@ export default function Company() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const lottieRef = useRef<HTMLDivElement | null>(null);
   const lottieInstance = useRef<any>(null);
+  const ZOOM = 2;
+  const applyZoom = () => {
+    const svg = lottieRef.current?.querySelector('svg') as SVGElement | null;
+    if (svg) {
+      svg.style.transform = `scale(${ZOOM})`;
+      svg.style.transformOrigin = 'center';
+    }
+  };
 
   useEffect(() => {
     if ((window as any).lottie) {
@@ -17,7 +25,12 @@ export default function Company() {
         autoplay: true,
         path: "https://cdn.builder.io/o/assets%2Fa38e23338308499f98538cb586611bd1%2Fd715eb110faf4567a366dd9f6ab190b0?alt=media&token=73ac4903-b0fc-4f43-a087-ccd1cc7c3c69&apiKey=a38e23338308499f98538cb586611bd1",
       });
-      return () => lottieInstance.current?.destroy?.();
+      lottieInstance.current?.addEventListener?.('DOMLoaded', applyZoom);
+      setTimeout(applyZoom, 300);
+      return () => {
+        lottieInstance.current?.removeEventListener?.('DOMLoaded', applyZoom);
+        lottieInstance.current?.destroy?.();
+      };
     }
 
     const script = document.createElement("script");
@@ -31,6 +44,8 @@ export default function Company() {
         autoplay: true,
         path: "https://cdn.builder.io/o/assets%2Fa38e23338308499f98538cb586611bd1%2Fd715eb110faf4567a366dd9f6ab190b0?alt=media&token=73ac4903-b0fc-4f43-a087-ccd1cc7c3c69&apiKey=a38e23338308499f98538cb586611bd1",
       });
+      lottieInstance.current?.addEventListener?.('DOMLoaded', applyZoom);
+      setTimeout(applyZoom, 300);
     };
     document.body.appendChild(script);
     return () => {
@@ -142,7 +157,7 @@ export default function Company() {
 
           {/* Right-side Lottie animation */}
           <div className="w-full md:justify-self-end">
-            <div className="bg-transparent border-0 rounded-none shadow-none p-0">
+            <div className="bg-transparent border-0 rounded-none shadow-none p-0 overflow-hidden flex items-center justify-center">
               <div ref={lottieRef} className="w-full h-[700px] sm:h-[880px] md:h-[1100px]" aria-label="Obelisk loading animation" />
             </div>
           </div>
