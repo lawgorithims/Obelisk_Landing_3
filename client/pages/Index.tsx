@@ -361,9 +361,8 @@ export default function Index() {
                 />
               </div>
               <p className="text-white mb-6 leading-relaxed">
-                "Obelisk transformed our firm's workflow—I'm amazed by the speed
-                and accuracy. Our attorneys now focus on strategy, and our
-                clients are seeing faster, more reliable results every day."
+                <span className="block text-xl font-bold">Accuracy You Can Trust</span>
+                <span className="block text-gray-300">Verify every draft against authoritative case law and statutes to reduce risk.</span>
               </p>
               <div className="flex items-center">
                 <img
