@@ -387,10 +387,8 @@ export default function Index() {
                 />
               </div>
               <p className="text-white mb-6 leading-relaxed">
-                "Thanks to Obelisk, our research and drafting process is
-                seamless. The automation tools catch every detail, and
-                turnaround times have never been better. We highly recommend
-                their service!"
+                <span className="block text-xl font-bold">Time Saved on Every Task</span>
+                <span className="block text-gray-300">Streamlined workflows cut research and drafting time dramatically.</span>
               </p>
               <div className="flex items-center">
                 <img
