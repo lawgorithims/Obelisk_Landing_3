@@ -415,9 +415,8 @@ export default function Index() {
                 />
               </div>
               <p className="text-white mb-6 leading-relaxed">
-                "With Obelisk, we deliver polished, compliant documents faster
-                than ever. The platform's precision and quality assurance give
-                us peace of mind and have won praise from our clients."
+                <span className="block text-xl font-bold">Confidence in Every Document</span>
+                <span className="block text-gray-300">Automated checks ensure briefs, contracts, and filings are reliable before submission.</span>
               </p>
               <div className="flex items-center">
                 <img
