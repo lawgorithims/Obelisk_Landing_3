@@ -158,7 +158,7 @@ export default function Placeholder({ pageName }: PlaceholderProps) {
             {/* Company Info */}
             <div>
               <h3 className="text-white text-2xl font-bold mb-4">Obelisk</h3>
-              <p className="text-gray-400">© 2025 Obelisk LLC</p>
+              <p className="text-gray-400">© 2025 Obelisk</p>
             </div>
 
             {/* Features Column */}
